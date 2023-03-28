@@ -2,3 +2,34 @@
     display: flex;
     gap:20px;
 }
+
+.animacion{
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    border: solid 1px black;
+}
+
+.quadrat {
+	width: 50px;
+	height: 50px;
+    top: 0px;
+    left:0px;
+	background-color: orange;
+	position: relative;
+
+}
+
+.quadrat-animation {
+    animation-name: caja;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes caja {
+    25%  {background-color:yellow; left:200px; top:0px; height: 60px; transform: rotate(90deg);}
+	50%  {background-color:blue; left:200px; top:200px; height: 80px; transform: rotate(180deg);}
+	75%  {background-color:green; left:0px; top:200px; height: 60px; transform: rotate(270deg);}
+	100% {background-color:orange; left:0px; top:0px;}
+
+  }

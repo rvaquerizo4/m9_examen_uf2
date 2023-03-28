@@ -24,3 +24,10 @@ playButton.addEventListener('click', () => {
 pauseButton.addEventListener('click', () => {
     video.pause();
     });
+
+
+//Caja
+const caja = document.querySelector(".quadrat");
+const play_animation = () => {
+    caja.classList.add("quadrat-animation");
+}
