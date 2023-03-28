@@ -5,7 +5,7 @@ const playButton = document.getElementById('play');
 const pauseButton = document.getElementById('pause');
 
 
-//Haz que se ejecute al comienzo de todo
+//Haz que se ejecute al comienzo de todo (autoplay)
 video.play();
 
 
